@@ -140,7 +140,7 @@ window.addEventListener('load', function() {
         arg.Inputs.input1.Values.push(p);
 
         jQuery.ajax({
-                url: "https://cloudresource.azure-api.net/predict1/score",
+                url: "https://cloudresource29112021.azure-api.net/predict/score",
                 beforeSend: function(xhrObj) {
                     xhrObj.setRequestHeader("Content-Type", "application/json;charset=utf-8");
                     xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "cf20287b2dcb4f3bac67346099cb5a23");
